@@ -6,6 +6,18 @@
   text-align: center;
 }
 
+.background {
+  background-color: lightblue;
+}
+
+footer {
+  float: bottom;
+}
+
+.borderbox {
+  border: 1px gray;
+}
+
 /* .strike {
   
 } */

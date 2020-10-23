@@ -8,10 +8,30 @@
   <header>
     <a href="index.html">Home</a>
   </header>
-  <body>
+  <body class="background">
+    <h1 class="textcenter">Timer Counter</h1>
     <h2>
       please enter how long do you want to set the time
     </h2>
+    <form action="showtimer">
+      <label for="timeinput">Please input in "[hour]h [minutes]m [seconds]s" format:</label> <br>
+      <input type="text" id="timeinput" name="timeinput" value="0h 0m 0s">
+    </form>
   </body>
+  <footer>
+    <p>created by Graf E.S.W.</p>
+  </footer>
+<script>
 
+  let hour = 0;
+  let minutes = 0;
+  let seconds = 0;
+
+  function showtimer(params) {
+    
+  }
+
+
+  
+</script>
 </html>
